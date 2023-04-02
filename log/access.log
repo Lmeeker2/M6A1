@@ -1,0 +1,2805 @@
+
+Request: GET /api/home at Sun Apr 02 2023 11:03:50 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-header__nav">
+            <ul class="main-header__item-list class="form-select" size="3" aria-label="size 3 select example">
+                <li class="main-header__item"><a class="active" href="home">home</a></li>
+                <li class="main-header__item"><a class="active" href="signup">Sign Up</a></li>
+                <li class="main-header__item"><a class="active" href="login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="form-control mx-auto" style="width: 200px;">
+        <h6>Digital Banking</h6>
+        <h6>welcome to my first Middleware REST APT</h6>
+    </div>
+    </main>
+    </body>
+
+    </html>
+Response: 304 20.385 ms 
+
+Request: GET /api/home at Sun Apr 02 2023 11:03:50 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-header__nav">
+            <ul class="main-header__item-list class="form-select" size="3" aria-label="size 3 select example">
+                <li class="main-header__item"><a class="active" href="home">home</a></li>
+                <li class="main-header__item"><a class="active" href="signup">Sign Up</a></li>
+                <li class="main-header__item"><a class="active" href="login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="form-control mx-auto" style="width: 200px;">
+        <h6>Digital Banking</h6>
+        <h6>welcome to my first Middleware REST APT</h6>
+    </div>
+    </main>
+    </body>
+
+    </html>
+Response: 304 1.030 ms 
+
+Request: GET /api/signup at Sun Apr 02 2023 11:03:51 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign-Up</title>
+    <!-- <link rel="stylesheet" href="/css/site.css" try to create your own CSS> -->
+</head>
+
+<body>
+
+    <main> 
+        <form class="product-form" action="/api/signup" method="POST">
+            <div class="form-control mx auto" style="width: 200px;">
+                <label for="name">User Name</label>
+                <input type="text" name="name" id="name">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email">
+                <label for="password">Password:</label>
+                <input type="text" name="password" id="password">
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="text" name="confirmPassword" id="confirmPassword">
+            </div>
+
+      
+Response: 304 15.014 ms 
+
+Request: GET /api/login at Sun Apr 02 2023 11:03:54 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Account Login</title>
+</head>
+
+<body>
+    <main>
+        <form class="form-control" action="/api/login" method="POST">
+            <div class="form-control mx-auto" style="width: 200px;">
+                <label for="email"> Email: </label>
+                <input type="text" name="email" id="email" required placeholder="email">
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" required placeholder="password">
+            </div>
+
+            <button class="btn" type="submit">Login</button>
+        </form>
+    </main>
+</body>
+</html>
+Response: 304 1.499 ms 
+
+Request: GET /api/signup at Sun Apr 02 2023 11:04:07 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign-Up</title>
+    <!-- <link rel="stylesheet" href="/css/site.css" try to create your own CSS> -->
+</head>
+
+<body>
+
+    <main> 
+        <form class="product-form" action="/api/signup" method="POST">
+            <div class="form-control mx auto" style="width: 200px;">
+                <label for="name">User Name</label>
+                <input type="text" name="name" id="name">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email">
+                <label for="password">Password:</label>
+                <input type="text" name="password" id="password">
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="text" name="confirmPassword" id="confirmPassword">
+            </div>
+
+      
+Response: 304 0.865 ms 
+
+Request: GET /api/signup at Sun Apr 02 2023 11:05:28 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign-Up</title>
+    <!-- <link rel="stylesheet" href="/css/site.css" try to create your own CSS> -->
+</head>
+
+<body>
+
+    <main> 
+        <form class="product-form" action="/api/signup" method="POST">
+            <div class="form-control mx auto" style="width: 200px;">
+                <label for="name">User Name</label>
+                <input type="text" name="name" id="name">
+                <br></br>
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email">
+                <br></br>
+                <label for="name">Account Number</label>
+                <input type="text" name="name" id="name">
+                <label for="password">Password:</label>
+                <input type="text" name="password" id="password">
+          
+Response: 200 4.082 ms 
+
+Request: GET /api/signup at Sun Apr 02 2023 11:05:42 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign-Up</title>
+    <!-- <link rel="stylesheet" href="/css/site.css" try to create your own CSS> -->
+</head>
+
+<body>
+
+    <main> 
+        <form class="product-form" action="/api/signup" method="POST">
+            <div class="form-control mx auto" style="width: 200px;">
+                <label for="name">User Name</label>
+                <input type="text" name="name" id="name">
+                <br></br>
+                <label for="email">Email</label>
+                <br>
+                <input type="text" name="email" id="email">
+                <br></br>
+                <label for="name">Account Number</label>
+                <input type="text" name="name" id="name">
+                <label for="password">Password:</label>
+                <input type="text" name="password" id="
+Response: 200 1.435 ms 
+
+Request: POST /api/signup at Sun Apr 02 2023 11:05:58 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Request Body:
+{
+	"name": [
+		"test",
+		"1"
+	],
+	"email": "test@gmail.com",
+	"password": "test",
+	"confirmPassword": "test"
+}
+Response Body:
+{
+	"errors": [
+		{
+			"location": "Authorization",
+			"msg": "test,1 ReferenceError: BankAccount is not defined",
+			"param": [
+				"test",
+				"1"
+			]
+		}
+	]
+}
+Response: 200 13.652 ms 
+
+Request: POST /api/signup at Sun Apr 02 2023 11:32:03 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Request Body:
+{
+	"name": [
+		"test",
+		"1"
+	],
+	"email": "test@gmail.com",
+	"password": "test",
+	"confirmPassword": "test"
+}
+Response Body:
+{
+	"errors": [
+		{
+			"location": "Authorization",
+			"msg": "test,1 ReferenceError: BankAccount is not defined",
+			"param": [
+				"test",
+				"1"
+			]
+		}
+	]
+}
+Response: 200 7.601 ms 
+
+Request: GET /api/home at Sun Apr 02 2023 11:32:08 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-header__nav">
+            <ul class="main-header__item-list class="form-select" size="3" aria-label="size 3 select example">
+                <li class="main-header__item"><a class="active" href="home">home</a></li>
+                <li class="main-header__item"><a class="active" href="signup">Sign Up</a></li>
+                <li class="main-header__item"><a class="active" href="login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="form-control mx-auto" style="width: 200px;">
+        <h6>Digital Banking</h6>
+        <h6>welcome to my first Middleware REST APT</h6>
+    </div>
+    </main>
+    </body>
+
+    </html>
+Response: 304 2.917 ms 
+
+Request: GET /api/signup at Sun Apr 02 2023 11:32:10 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign-Up</title>
+    <!-- <link rel="stylesheet" href="/css/site.css" try to create your own CSS> -->
+</head>
+
+<body>
+
+    <main> 
+        <form class="product-form" action="/api/signup" method="POST">
+            <div class="form-control mx auto" style="width: 200px;">
+                <label for="name">User Name</label>
+                <input type="text" name="name" id="name">
+                <br></br>
+                <label for="email">Email</label>
+                <br>
+                <input type="text" name="email" id="email">
+                <br></br>
+                <label for="name">Account Number</label>
+                <input type="text" name="name" id="name">
+                <label for="password">Password:</label>
+                <input type="text" name="password" id="
+Response: 200 3.032 ms 
+
+Request: POST /api/signup at Sun Apr 02 2023 11:32:30 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Request Body:
+{
+	"name": [
+		"john",
+		"1"
+	],
+	"email": "john.doe@gmail.com",
+	"password": "test",
+	"confirmPassword": "test"
+}
+Response Body:
+{
+	"errors": [
+		{
+			"location": "Authorization",
+			"msg": "john,1 ReferenceError: BankAccount is not defined",
+			"param": [
+				"john",
+				"1"
+			]
+		}
+	]
+}
+Response: 200 0.665 ms 
+
+Request: POST /api/signup at Sun Apr 02 2023 11:48:40 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Request Body:
+{
+	"name": [
+		"john",
+		"1"
+	],
+	"email": "john.doe@gmail.com",
+	"password": "test",
+	"confirmPassword": "test"
+}
+Response Body:
+{
+	"errors": [
+		{
+			"location": "Authorization",
+			"msg": "john,1 ReferenceError: BankAccount is not defined",
+			"param": [
+				"john",
+				"1"
+			]
+		}
+	]
+}
+Response: 200 20.085 ms 
+
+Request: GET /api/home at Sun Apr 02 2023 11:48:45 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-header__nav">
+            <ul class="main-header__item-list class="form-select" size="3" aria-label="size 3 select example">
+                <li class="main-header__item"><a class="active" href="home">home</a></li>
+                <li class="main-header__item"><a class="active" href="signup">Sign Up</a></li>
+                <li class="main-header__item"><a class="active" href="login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="form-control mx-auto" style="width: 200px;">
+        <h6>Digital Banking</h6>
+        <h6>welcome to my first Middleware REST APT</h6>
+    </div>
+    </main>
+    </body>
+
+    </html>
+Response: 304 2.323 ms 
+
+Request: GET /api/signup at Sun Apr 02 2023 11:48:47 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign-Up</title>
+    <!-- <link rel="stylesheet" href="/css/site.css" try to create your own CSS> -->
+</head>
+
+<body>
+
+    <main> 
+        <form class="product-form" action="/api/signup" method="POST">
+            <div class="form-control mx auto" style="width: 200px;">
+                <label for="name">User Name</label>
+                <input type="text" name="name" id="name">
+                <br></br>
+                <label for="email">Email</label>
+                <br>
+                <input type="text" name="email" id="email">
+                <br></br>
+                <label for="name">Account Number</label>
+                <input type="text" name="name" id="name">
+                <label for="password">Password:</label>
+                <input type="text" name="password" id="
+Response: 200 2.654 ms 
+
+Request: POST /api/signup at Sun Apr 02 2023 11:48:55 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Request Body:
+{
+	"name": [
+		"test",
+		"1"
+	],
+	"email": "test@plswork.com",
+	"password": "test",
+	"confirmPassword": "test"
+}
+Response Body:
+{
+	"errors": [
+		{
+			"location": "Authorization",
+			"msg": "test,1 ReferenceError: BankAccount is not defined",
+			"param": [
+				"test",
+				"1"
+			]
+		}
+	]
+}
+Response: 200 1.389 ms 
+
+Request: GET /api/home at Sun Apr 02 2023 11:56:19 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-header__nav">
+            <ul class="main-header__item-list class="form-select" size="3" aria-label="size 3 select example">
+                <li class="main-header__item"><a class="active" href="home">home</a></li>
+                <li class="main-header__item"><a class="active" href="signup">Sign Up</a></li>
+                <li class="main-header__item"><a class="active" href="login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="form-control mx-auto" style="width: 200px;">
+        <h6>Digital Banking</h6>
+        <h6>welcome to my first Middleware REST APT</h6>
+    </div>
+    </main>
+    </body>
+
+    </html>
+Response: 304 5.781 ms 
+
+Request: GET /api/signup at Sun Apr 02 2023 11:56:20 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign-Up</title>
+    <!-- <link rel="stylesheet" href="/css/site.css" try to create your own CSS> -->
+</head>
+
+<body>
+
+    <main> 
+        <form class="product-form" action="/api/signup" method="POST">
+            <div class="form-control mx auto" style="width: 200px;">
+                <label for="name">User Name</label>
+                <input type="text" name="name" id="name">
+                <br></br>
+                <label for="email">Email</label>
+                <br>
+                <input type="text" name="email" id="email">
+                <br></br>
+                <label for="name">Account Number</label>
+                <input type="text" name="name" id="name">
+                <label for="password">Password:</label>
+                <input type="text" name="password" id="
+Response: 200 2.331 ms 
+
+Request: POST /api/signup at Sun Apr 02 2023 11:56:34 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Request Body:
+{
+	"name": [
+		"test",
+		"1"
+	],
+	"email": "test@gmail.com",
+	"password": "test",
+	"confirmPassword": "test"
+}
+Response Body:
+{
+	"errors": [
+		{
+			"location": "Authorization",
+			"msg": "test,1 ReferenceError: BankAccount is not defined",
+			"param": [
+				"test",
+				"1"
+			]
+		}
+	]
+}
+Response: 200 1.638 ms 
+
+Request: POST /api/signup at Sun Apr 02 2023 11:59:35 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Request Body:
+{
+	"name": [
+		"test",
+		"1"
+	],
+	"email": "test@gmail.com",
+	"password": "test",
+	"confirmPassword": "test"
+}
+Response Body:
+{
+	"errors": [
+		{
+			"location": "Authorization",
+			"msg": "test,1 ReferenceError: BankAccount is not defined",
+			"param": [
+				"test",
+				"1"
+			]
+		}
+	]
+}
+Response: 200 0.644 ms 
+
+Request: POST /api/signup at Sun Apr 02 2023 12:12:08 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Request Body:
+{
+	"name": [
+		"test",
+		"1"
+	],
+	"email": "test@gmail.com",
+	"password": "test",
+	"confirmPassword": "test"
+}
+Response Body:
+{
+	"errors": [
+		{
+			"location": "Authorization",
+			"msg": "test,1 ReferenceError: BankAccount is not defined",
+			"param": [
+				"test",
+				"1"
+			]
+		}
+	]
+}
+Response: 200 35.574 ms 
+
+Request: POST /api/signup at Sun Apr 02 2023 12:27:42 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Request Body:
+{
+	"name": [
+		"test",
+		"1"
+	],
+	"email": "test@gmail.com",
+	"password": "test",
+	"confirmPassword": "test"
+}
+Response Body:
+{
+	"errors": [
+		{
+			"location": "Authorization",
+			"msg": "test,1 ReferenceError: BankAccount is not defined",
+			"param": [
+				"test",
+				"1"
+			]
+		}
+	]
+}
+Response: 200 10.925 ms 
+
+Request: GET /api/home at Sun Apr 02 2023 12:27:47 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-header__nav">
+            <ul class="main-header__item-list class="form-select" size="3" aria-label="size 3 select example">
+                <li class="main-header__item"><a class="active" href="home">home</a></li>
+                <li class="main-header__item"><a class="active" href="signup">Sign Up</a></li>
+                <li class="main-header__item"><a class="active" href="login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="form-control mx-auto" style="width: 200px;">
+        <h6>Digital Banking</h6>
+        <h6>welcome to my first Middleware REST APT</h6>
+    </div>
+    </main>
+    </body>
+
+    </html>
+Response: 304 16.895 ms 
+
+Request: GET /api/signup at Sun Apr 02 2023 12:27:48 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign-Up</title>
+    <!-- <link rel="stylesheet" href="/css/site.css" try to create your own CSS> -->
+</head>
+
+<body>
+
+    <main> 
+        <form class="product-form" action="/api/signup" method="POST">
+            <div class="form-control mx auto" style="width: 200px;">
+                <label for="name">User Name</label>
+                <input type="text" name="name" id="name">
+                <br></br>
+                <label for="email">Email</label>
+                <br>
+                <input type="text" name="email" id="email">
+                <br></br>
+                <label for="name">Account Number</label>
+                <input type="text" name="name" id="name">
+                <label for="password">Password:</label>
+                <input type="text" name="password" id="
+Response: 200 1.373 ms 
+
+Request: POST /api/signup at Sun Apr 02 2023 12:27:59 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Request Body:
+{
+	"name": [
+		"test",
+		"1"
+	],
+	"email": "test@plswork.com",
+	"password": "test",
+	"confirmPassword": "test"
+}
+Response Body:
+{
+	"errors": [
+		{
+			"location": "Authorization",
+			"msg": "test,1 ReferenceError: BankAccount is not defined",
+			"param": [
+				"test",
+				"1"
+			]
+		}
+	]
+}
+Response: 200 1.199 ms 
+
+Request: GET /api/signup at Sun Apr 02 2023 12:28:11 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign-Up</title>
+    <!-- <link rel="stylesheet" href="/css/site.css" try to create your own CSS> -->
+</head>
+
+<body>
+
+    <main> 
+        <form class="product-form" action="/api/signup" method="POST">
+            <div class="form-control mx auto" style="width: 200px;">
+                <label for="name">User Name</label>
+                <input type="text" name="name" id="name">
+                <br></br>
+                <label for="email">Email</label>
+                <br>
+                <input type="text" name="email" id="email">
+                <br></br>
+                <label for="name">Account Number</label>
+                <input type="text" name="name" id="name">
+                <label for="password">Password:</label>
+                <input type="text" name="password" id="
+Response: 200 2.315 ms 
+
+Request: GET /api/signup at Sun Apr 02 2023 13:28:52 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign-Up</title>
+    <!-- <link rel="stylesheet" href="/css/site.css" try to create your own CSS> -->
+</head>
+
+<body>
+
+    <main> 
+        <form class="product-form" action="/api/signup" method="POST">
+            <div class="form-control mx auto" style="width: 200px;">
+                <label for="name">Account Name</label>
+                <input type="text" name="accountName" id="accountName">
+                <br></br>
+                <label for="name">Account Number</label>
+                <input type="text" name="accountNumber" id="accountNumber">
+                <br></br>
+                <label for="name">Account Holder</label>
+                <input type="text" name="accountHolder" id="accountHolder">
+                <br></br>
+                <label for="email">Email</label
+Response: 200 34.875 ms 
+
+Request: GET /api/signup at Sun Apr 02 2023 13:29:14 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign-Up</title>
+    <!-- <link rel="stylesheet" href="/css/site.css" try to create your own CSS> -->
+</head>
+
+<body>
+
+    <main> 
+        <form class="product-form" action="/api/signup" method="POST">
+            <div class="form-control mx auto" style="width: 200px;">
+                <label for="name">Account Name</label>
+                <input type="text" name="accountName" id="accountName">
+                <br></br>
+                <label for="name">Account Number</label>
+                <input type="text" name="accountNumber" id="accountNumber">
+                <br></br>
+                <label for="name">Account Holder</label>
+                <input type="text" name="accountHolder" id="accountHolder">
+                <br></br>
+                <label for="email">Email</label
+Response: 200 1.791 ms 
+
+Request: POST /api/signup at Sun Apr 02 2023 13:29:28 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Request Body:
+{
+	"accountName": "Chase",
+	"accountNumber": "1",
+	"accountHolder": "John Doe",
+	"email": "jdoe@gmail.com",
+	"password": "Test",
+	"confirmPassword": "Test"
+}
+Response Body:
+{
+	"errors": [
+		{
+			"location": "Authorization",
+			"msg": "undefined ReferenceError: BankAccount is not defined"
+		}
+	]
+}
+Response: 200 6.421 ms 
+
+Request: POST /api/signup at Sun Apr 02 2023 13:32:36 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Request Body:
+{
+	"accountName": "Chase",
+	"accountNumber": "1",
+	"accountHolder": "John Doe",
+	"email": "jdoe@gmail.com",
+	"password": "Test",
+	"confirmPassword": "Test"
+}
+Response Body:
+{
+	"errors": [
+		{
+			"location": "Authorization",
+			"msg": "undefined ReferenceError: BankAccount is not defined"
+		}
+	]
+}
+Response: 200 4.375 ms 
+
+Request: GET /api/home at Sun Apr 02 2023 13:32:40 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-header__nav">
+            <ul class="main-header__item-list class="form-select" size="3" aria-label="size 3 select example">
+                <li class="main-header__item"><a class="active" href="home">home</a></li>
+                <li class="main-header__item"><a class="active" href="signup">Sign Up</a></li>
+                <li class="main-header__item"><a class="active" href="login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="form-control mx-auto" style="width: 200px;">
+        <h6>Digital Banking</h6>
+        <h6>welcome to my first Middleware REST APT</h6>
+    </div>
+    </main>
+    </body>
+
+    </html>
+Response: 304 2.926 ms 
+
+Request: GET /api/signup at Sun Apr 02 2023 13:32:41 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign-Up</title>
+    <!-- <link rel="stylesheet" href="/css/site.css" try to create your own CSS> -->
+</head>
+
+<body>
+
+    <main> 
+        <form class="product-form" action="/api/signup" method="POST">
+            <div class="form-control mx auto" style="width: 200px;">
+                <label for="name">Account Name</label>
+                <input type="text" name="accountName" id="accountName">
+                <br></br>
+                <label for="name">Account Number</label>
+                <input type="text" name="accountNumber" id="accountNumber">
+                <br></br>
+                <label for="name">Account Holder</label>
+                <input type="text" name="accountHolder" id="accountHolder">
+                <br></br>
+                <label for="email">Email</label
+Response: 200 2.816 ms 
+
+Request: POST /api/signup at Sun Apr 02 2023 13:33:19 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Request Body:
+{
+	"accountName": "Chase",
+	"accountNumber": "1",
+	"accountHolder": "John Doe",
+	"email": "jdoe@gmail.com",
+	"password": "test",
+	"confirmPassword": "test"
+}
+Response Body:
+{
+	"errors": [
+		{
+			"location": "Authorization",
+			"msg": "undefined ReferenceError: BankAccount is not defined"
+		}
+	]
+}
+Response: 200 0.916 ms 
+
+Request: POST /api/signup at Sun Apr 02 2023 13:34:00 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Request Body:
+{
+	"accountName": "Chase",
+	"accountNumber": "1",
+	"accountHolder": "John Doe",
+	"email": "jdoe@gmail.com",
+	"password": "test",
+	"confirmPassword": "test"
+}
+Response Body:
+{
+	"errors": [
+		{
+			"location": "Authorization",
+			"msg": "undefined ReferenceError: BankAccount is not defined"
+		}
+	]
+}
+Response: 200 1.311 ms 
+
+Request: GET /api/home at Sun Apr 02 2023 13:34:05 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-header__nav">
+            <ul class="main-header__item-list class="form-select" size="3" aria-label="size 3 select example">
+                <li class="main-header__item"><a class="active" href="home">home</a></li>
+                <li class="main-header__item"><a class="active" href="signup">Sign Up</a></li>
+                <li class="main-header__item"><a class="active" href="login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="form-control mx-auto" style="width: 200px;">
+        <h6>Digital Banking</h6>
+        <h6>welcome to my first Middleware REST APT</h6>
+    </div>
+    </main>
+    </body>
+
+    </html>
+Response: 304 1.845 ms 
+
+Request: GET /api/home/ at Sun Apr 02 2023 13:34:05 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-header__nav">
+            <ul class="main-header__item-list class="form-select" size="3" aria-label="size 3 select example">
+                <li class="main-header__item"><a class="active" href="home">home</a></li>
+                <li class="main-header__item"><a class="active" href="signup">Sign Up</a></li>
+                <li class="main-header__item"><a class="active" href="login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="form-control mx-auto" style="width: 200px;">
+        <h6>Digital Banking</h6>
+        <h6>welcome to my first Middleware REST APT</h6>
+    </div>
+    </main>
+    </body>
+
+    </html>
+Response: 200 8.204 ms 
+
+Request: GET /api/home/signup at Sun Apr 02 2023 13:34:07 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response: 404 6.937 ms 
+
+Request: GET /api/home at Sun Apr 02 2023 13:34:10 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-header__nav">
+            <ul class="main-header__item-list class="form-select" size="3" aria-label="size 3 select example">
+                <li class="main-header__item"><a class="active" href="home">home</a></li>
+                <li class="main-header__item"><a class="active" href="signup">Sign Up</a></li>
+                <li class="main-header__item"><a class="active" href="login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="form-control mx-auto" style="width: 200px;">
+        <h6>Digital Banking</h6>
+        <h6>welcome to my first Middleware REST APT</h6>
+    </div>
+    </main>
+    </body>
+
+    </html>
+Response: 304 2.565 ms 
+
+Request: GET /api/signup at Sun Apr 02 2023 13:34:12 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign-Up</title>
+    <!-- <link rel="stylesheet" href="/css/site.css" try to create your own CSS> -->
+</head>
+
+<body>
+
+    <main> 
+        <form class="product-form" action="/api/signup" method="POST">
+            <div class="form-control mx auto" style="width: 200px;">
+                <label for="name">Account Name</label>
+                <input type="text" name="accountName" id="accountName">
+                <br></br>
+                <label for="name">Account Number</label>
+                <input type="text" name="accountNumber" id="accountNumber">
+                <br></br>
+                <label for="name">Account Holder</label>
+                <input type="text" name="accountHolder" id="accountHolder">
+                <br></br>
+                <label for="email">Email</label
+Response: 200 0.884 ms 
+
+Request: POST /api/signup at Sun Apr 02 2023 13:34:24 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Request Body:
+{
+	"accountName": "chase",
+	"accountNumber": "1",
+	"accountHolder": "john",
+	"email": "jdoe@gmail.com",
+	"password": "test",
+	"confirmPassword": "test"
+}
+Response Body:
+{
+	"errors": [
+		{
+			"location": "Authorization",
+			"msg": "undefined ReferenceError: BankAccount is not defined"
+		}
+	]
+}
+Response: 200 0.575 ms 
+
+Request: GET /api/signup at Sun Apr 02 2023 13:41:22 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign-Up</title>
+    <!-- <link rel="stylesheet" href="/css/site.css" try to create your own CSS> -->
+</head>
+
+<body>
+
+    <main> 
+        <form class="product-form" action="/api/signup" method="POST">
+            <div class="form-control mx auto" style="width: 200px;">
+                <label for="name">Account Name</label>
+                <input type="text" name="accountName" id="accountName">
+                <br></br>
+                <label for="name">Account Number</label>
+                <input type="text" name="accountNumber" id="accountNumber">
+                <br></br>
+                <label for="name">Account Holder</label>
+                <input type="text" name="accountHolder" id="accountHolder">
+                <br></br>
+                <label for="email">Email</label
+Response: 200 5.094 ms 
+
+Request: POST /api/signup at Sun Apr 02 2023 13:41:24 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Request Body:
+{
+	"accountName": "chase",
+	"accountNumber": "1",
+	"accountHolder": "john",
+	"email": "jdoe@gmail.com",
+	"password": "test",
+	"confirmPassword": "test"
+}
+Response Body:
+{
+	"errors": [
+		{
+			"location": "Authorization",
+			"msg": "undefined ReferenceError: BankAccount is not defined"
+		}
+	]
+}
+Response: 200 1.717 ms 
+
+Request: GET /api/signup at Sun Apr 02 2023 13:41:28 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign-Up</title>
+    <!-- <link rel="stylesheet" href="/css/site.css" try to create your own CSS> -->
+</head>
+
+<body>
+
+    <main> 
+        <form class="product-form" action="/api/signup" method="POST">
+            <div class="form-control mx auto" style="width: 200px;">
+                <label for="name">Account Name</label>
+                <input type="text" name="accountName" id="accountName">
+                <br></br>
+                <label for="name">Account Number</label>
+                <input type="text" name="accountNumber" id="accountNumber">
+                <br></br>
+                <label for="name">Account Holder</label>
+                <input type="text" name="accountHolder" id="accountHolder">
+                <br></br>
+                <label for="email">Email</label
+Response: 200 1.099 ms 
+
+Request: GET /api/home at Sun Apr 02 2023 13:41:35 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-header__nav">
+            <ul class="main-header__item-list class="form-select" size="3" aria-label="size 3 select example">
+                <li class="main-header__item"><a class="active" href="home">home</a></li>
+                <li class="main-header__item"><a class="active" href="signup">Sign Up</a></li>
+                <li class="main-header__item"><a class="active" href="login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="form-control mx-auto" style="width: 200px;">
+        <h6>Digital Banking</h6>
+        <h6>welcome to my first Middleware REST APT</h6>
+    </div>
+    </main>
+    </body>
+
+    </html>
+Response: 304 2.566 ms 
+
+Request: GET /api/signup at Sun Apr 02 2023 13:41:40 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign-Up</title>
+    <!-- <link rel="stylesheet" href="/css/site.css" try to create your own CSS> -->
+</head>
+
+<body>
+
+    <main> 
+        <form class="product-form" action="/api/signup" method="POST">
+            <div class="form-control mx auto" style="width: 200px;">
+                <label for="name">Account Name</label>
+                <input type="text" name="accountName" id="accountName">
+                <br></br>
+                <label for="name">Account Number</label>
+                <input type="text" name="accountNumber" id="accountNumber">
+                <br></br>
+                <label for="name">Account Holder</label>
+                <input type="text" name="accountHolder" id="accountHolder">
+                <br></br>
+                <label for="email">Email</label
+Response: 304 1.060 ms 
+
+Request: POST /api/signup at Sun Apr 02 2023 13:41:53 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Request Body:
+{
+	"accountName": "chase",
+	"accountNumber": "1",
+	"accountHolder": "john",
+	"email": "jdoe@gmail.com",
+	"password": "test",
+	"confirmPassword": "test"
+}
+Response Body:
+{
+	"errors": [
+		{
+			"location": "Authorization",
+			"msg": "undefined ReferenceError: BankAccount is not defined"
+		}
+	]
+}
+Response: 200 0.634 ms 
+
+Request: GET /api/home at Sun Apr 02 2023 13:48:00 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-header__nav">
+            <ul class="main-header__item-list class="form-select" size="3" aria-label="size 3 select example">
+                <li class="main-header__item"><a class="active" href="home">home</a></li>
+                <li class="main-header__item"><a class="active" href="signup">Sign Up</a></li>
+                <li class="main-header__item"><a class="active" href="login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="form-control mx-auto" style="width: 200px;">
+        <h6>Digital Banking</h6>
+        <h6>welcome to my first Middleware REST APT</h6>
+    </div>
+    </main>
+    </body>
+
+    </html>
+Response: 304 2.292 ms 
+
+Request: GET /api/signup at Sun Apr 02 2023 13:48:01 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign-Up</title>
+    <!-- <link rel="stylesheet" href="/css/site.css" try to create your own CSS> -->
+</head>
+
+<body>
+
+    <main> 
+        <form class="product-form" action="/api/signup" method="POST">
+            <div class="form-control mx auto" style="width: 200px;">
+                <label for="name">Account Name</label>
+                <input type="text" name="accountName" id="accountName">
+                <br></br>
+                <label for="name">Account Number</label>
+                <input type="text" name="accountNumber" id="accountNumber">
+                <br></br>
+                <label for="name">Account Holder</label>
+                <input type="text" name="accountHolder" id="accountHolder">
+                <br></br>
+                <label for="email">Email</label
+Response: 200 1.805 ms 
+
+Request: POST /api/signup at Sun Apr 02 2023 13:48:14 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Request Body:
+{
+	"accountName": "Chase",
+	"accountNumber": "1",
+	"accountHolder": "John Doe",
+	"email": "jdoe@gmail.com",
+	"password": "test",
+	"confirmPassword": "test"
+}
+Response Body:
+{
+	"errors": [
+		{
+			"location": "Authorization",
+			"msg": "undefined ReferenceError: BankAccount is not defined"
+		}
+	]
+}
+Response: 200 0.501 ms 
+
+Request: POST /api/signup at Sun Apr 02 2023 13:49:27 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Request Body:
+{
+	"accountName": "Chase",
+	"accountNumber": "1",
+	"accountHolder": "John Doe",
+	"email": "jdoe@gmail.com",
+	"password": "test",
+	"confirmPassword": "test"
+}
+Response Body:
+{
+	"errors": [
+		{
+			"location": "Authorization",
+			"msg": "Chase ReferenceError: typeofBankAccount is not defined",
+			"param": "Chase"
+		}
+	]
+}
+Response: 200 5.249 ms 
+
+Request: POST /api/signup at Sun Apr 02 2023 13:51:28 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Request Body:
+{
+	"accountName": "Chase",
+	"accountNumber": "1",
+	"accountHolder": "John Doe",
+	"email": "jdoe@gmail.com",
+	"password": "test",
+	"confirmPassword": "test"
+}
+Response Body:
+{
+	"errors": [
+		{
+			"location": "Authorization",
+			"msg": "Chase ReferenceError: typeofBankAccount is not defined",
+			"param": "Chase"
+		}
+	]
+}
+Response: 200 1.157 ms 
+
+Request: GET /api/home at Sun Apr 02 2023 13:51:32 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-header__nav">
+            <ul class="main-header__item-list class="form-select" size="3" aria-label="size 3 select example">
+                <li class="main-header__item"><a class="active" href="home">home</a></li>
+                <li class="main-header__item"><a class="active" href="signup">Sign Up</a></li>
+                <li class="main-header__item"><a class="active" href="login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="form-control mx-auto" style="width: 200px;">
+        <h6>Digital Banking</h6>
+        <h6>welcome to my first Middleware REST APT</h6>
+    </div>
+    </main>
+    </body>
+
+    </html>
+Response: 304 10.608 ms 
+
+Request: GET /api/signup at Sun Apr 02 2023 13:51:34 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign-Up</title>
+    <!-- <link rel="stylesheet" href="/css/site.css" try to create your own CSS> -->
+</head>
+
+<body>
+
+    <main> 
+        <form class="product-form" action="/api/signup" method="POST">
+            <div class="form-control mx auto" style="width: 200px;">
+                <label for="name">Account Name</label>
+                <input type="text" name="accountName" id="accountName">
+                <br></br>
+                <label for="name">Account Number</label>
+                <input type="text" name="accountNumber" id="accountNumber">
+                <br></br>
+                <label for="name">Account Holder</label>
+                <input type="text" name="accountHolder" id="accountHolder">
+                <br></br>
+                <label for="email">Email</label
+Response: 200 3.170 ms 
+
+Request: POST /api/signup at Sun Apr 02 2023 13:51:53 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Request Body:
+{
+	"accountName": "Chase",
+	"accountNumber": "1",
+	"accountHolder": "John Doe",
+	"email": "jdoe@gmail.com",
+	"password": "test",
+	"confirmPassword": "test"
+}
+Response Body:
+{
+	"accountName": "Chase",
+	"accountNumber": "1",
+	"accountHolder": "John Doe",
+	"email": "jdoe@gmail.com",
+	"password": "$2a$10$1wGOfubVeq5w5ZIMq.G6NuS.aJeLjLVgUlNLGBHB26yR9KfNfRy2G",
+	"_id": "6429eae9c281157e1db66013",
+	"date": "2023-04-02T20:51:53.163Z",
+	"__v": 0
+}
+Response: 200 269.653 ms 
+
+Request: GET /home at Sun Apr 02 2023 13:52:19 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response: 404 2.978 ms 
+
+Request: GET /api/home at Sun Apr 02 2023 13:52:27 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-header__nav">
+            <ul class="main-header__item-list class="form-select" size="3" aria-label="size 3 select example">
+                <li class="main-header__item"><a class="active" href="home">home</a></li>
+                <li class="main-header__item"><a class="active" href="signup">Sign Up</a></li>
+                <li class="main-header__item"><a class="active" href="login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="form-control mx-auto" style="width: 200px;">
+        <h6>Digital Banking</h6>
+        <h6>welcome to my first Middleware REST APT</h6>
+    </div>
+    </main>
+    </body>
+
+    </html>
+Response: 304 9.180 ms 
+
+Request: GET /api/login at Sun Apr 02 2023 13:52:28 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Account Login</title>
+</head>
+
+<body>
+    <main>
+        <form class="form-control" action="/api/login" method="POST">
+            <div class="form-control mx-auto" style="width: 200px;">
+                <label for="email"> Email: </label>
+                <input type="text" name="email" id="email" required placeholder="email">
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" required placeholder="password">
+            </div>
+
+            <button class="btn" type="submit">Login</button>
+        </form>
+    </main>
+</body>
+</html>
+Response: 304 3.419 ms 
+
+Request: POST /api/login at Sun Apr 02 2023 13:56:47 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Request Body:
+{
+	"email": "jdoe@gmail.com",
+	"password": "test"
+}
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-header__nav">
+            <ul class="main-header__item-list class="form-select" size="3" aria-label="size 3 select example">
+                <li class="main-header__item"><a class="active" href="home">home</a></li>
+                <li class="main-header__item"><a class="active" href="signup">Sign Up</a></li>
+                <li class="main-header__item"><a class="active" href="login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="form-control mx-auto" style="width: 200px;">
+        <h6>Digital Banking</h6>
+        <h6>Account: undefined Error: TypeError: BankAccount.generateAuthToken is not a function login un-successfully</h6>
+    </div>
+    <
+Response: 401 176.104 ms 
+
+Request: GET /api/login at Sun Apr 02 2023 13:56:54 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Account Login</title>
+</head>
+
+<body>
+    <main>
+        <form class="form-control" action="/api/login" method="POST">
+            <div class="form-control mx-auto" style="width: 200px;">
+                <label for="email"> Email: </label>
+                <input type="text" name="email" id="email" required placeholder="email">
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" required placeholder="password">
+            </div>
+
+            <button class="btn" type="submit">Login</button>
+        </form>
+    </main>
+</body>
+</html>
+Response: 304 2.377 ms 
+
+Request: POST /api/login at Sun Apr 02 2023 13:58:29 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Request Body:
+{
+	"email": "Chase",
+	"password": "test"
+}
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-header__nav">
+            <ul class="main-header__item-list class="form-select" size="3" aria-label="size 3 select example">
+                <li class="main-header__item"><a class="active" href="home">home</a></li>
+                <li class="main-header__item"><a class="active" href="signup">Sign Up</a></li>
+                <li class="main-header__item"><a class="active" href="login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="form-control mx-auto" style="width: 200px;">
+        <h6>Digital Banking</h6>
+        <h6>&lt;&lt;Error&gt;&gt; login un-successfully invalid credentials</h6>
+    </div>
+    </main>
+    </body>
+
+    </html>
+Response: 401 77.299 ms 
+
+Request: GET /api/login at Sun Apr 02 2023 13:58:32 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Account Login</title>
+</head>
+
+<body>
+    <main>
+        <form class="form-control" action="/api/login" method="POST">
+            <div class="form-control mx-auto" style="width: 200px;">
+                <label for="email"> Email: </label>
+                <input type="text" name="email" id="email" required placeholder="email">
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" required placeholder="password">
+            </div>
+
+            <button class="btn" type="submit">Login</button>
+        </form>
+    </main>
+</body>
+</html>
+Response: 304 2.159 ms 
+
+Request: POST /api/login at Sun Apr 02 2023 13:58:41 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Request Body:
+{
+	"email": "John Doe",
+	"password": "test"
+}
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-header__nav">
+            <ul class="main-header__item-list class="form-select" size="3" aria-label="size 3 select example">
+                <li class="main-header__item"><a class="active" href="home">home</a></li>
+                <li class="main-header__item"><a class="active" href="signup">Sign Up</a></li>
+                <li class="main-header__item"><a class="active" href="login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="form-control mx-auto" style="width: 200px;">
+        <h6>Digital Banking</h6>
+        <h6>&lt;&lt;Error&gt;&gt; login un-successfully invalid credentials</h6>
+    </div>
+    </main>
+    </body>
+
+    </html>
+Response: 401 78.329 ms 
+
+Request: GET /api/login at Sun Apr 02 2023 13:58:42 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Account Login</title>
+</head>
+
+<body>
+    <main>
+        <form class="form-control" action="/api/login" method="POST">
+            <div class="form-control mx-auto" style="width: 200px;">
+                <label for="email"> Email: </label>
+                <input type="text" name="email" id="email" required placeholder="email">
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" required placeholder="password">
+            </div>
+
+            <button class="btn" type="submit">Login</button>
+        </form>
+    </main>
+</body>
+</html>
+Response: 304 1.408 ms 
+
+Request: POST /api/login at Sun Apr 02 2023 13:58:47 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Request Body:
+{
+	"email": "jdoe@gmail.com",
+	"password": "test"
+}
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-header__nav">
+            <ul class="main-header__item-list class="form-select" size="3" aria-label="size 3 select example">
+                <li class="main-header__item"><a class="active" href="home">home</a></li>
+                <li class="main-header__item"><a class="active" href="signup">Sign Up</a></li>
+                <li class="main-header__item"><a class="active" href="login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="form-control mx-auto" style="width: 200px;">
+        <h6>Digital Banking</h6>
+        <h6>Account: undefined Error: TypeError: BankAccount.generateAuthToken is not a function login un-successfully</h6>
+    </div>
+    <
+Response: 401 193.852 ms 
+
+Request: GET /api/signup at Sun Apr 02 2023 14:06:04 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign-Up</title>
+    <!-- <link rel="stylesheet" href="/css/site.css" try to create your own CSS> -->
+</head>
+
+<body>
+
+    <main> 
+        <form class="product-form" action="/api/signup" method="POST">
+            <div class="form-control mx auto" style="width: 200px;">
+                <label for="name">Account Name</label>
+                <input type="text" name="accountName" id="accountName">
+                <br></br>
+                <label for="name">Account Number</label>
+                <input type="text" name="accountNumber" id="accountNumber">
+                <br></br>
+                <label for="name">Account Holder</label>
+                <input type="text" name="accountHolder" id="accountHolder">
+                <br></br>
+                <label for="email">Email</label
+Response: 200 3.390 ms 
+
+Request: POST /api/signup at Sun Apr 02 2023 14:06:20 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Request Body:
+{
+	"accountName": "PNC",
+	"accountNumber": "2",
+	"accountHolder": "Jane",
+	"email": "jane@yahoo.com",
+	"password": "test",
+	"confirmPassword": "test"
+}
+Response Body:
+{
+	"accountName": "PNC",
+	"accountNumber": "2",
+	"accountHolder": "Jane",
+	"email": "jane@yahoo.com",
+	"password": "$2a$10$OCgwPXkbnqhCES4/2kIvcOns.MxD7iB7UijvCx9xF8b2QySYPb2o6",
+	"_id": "6429ee4bc281157e1db66019",
+	"date": "2023-04-02T21:06:19.735Z",
+	"__v": 0
+}
+Response: 200 268.267 ms 
+
+Request: GET /api/home at Sun Apr 02 2023 14:06:35 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-header__nav">
+            <ul class="main-header__item-list class="form-select" size="3" aria-label="size 3 select example">
+                <li class="main-header__item"><a class="active" href="home">home</a></li>
+                <li class="main-header__item"><a class="active" href="signup">Sign Up</a></li>
+                <li class="main-header__item"><a class="active" href="login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="form-control mx-auto" style="width: 200px;">
+        <h6>Digital Banking</h6>
+        <h6>welcome to my first Middleware REST APT</h6>
+    </div>
+    </main>
+    </body>
+
+    </html>
+Response: 304 1.852 ms 
+
+Request: GET /api/login at Sun Apr 02 2023 14:06:37 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Account Login</title>
+</head>
+
+<body>
+    <main>
+        <form class="form-control" action="/api/login" method="POST">
+            <div class="form-control mx-auto" style="width: 200px;">
+                <label for="email"> Email: </label>
+                <input type="text" name="email" id="email" required placeholder="email">
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" required placeholder="password">
+            </div>
+
+            <button class="btn" type="submit">Login</button>
+        </form>
+    </main>
+</body>
+</html>
+Response: 304 2.202 ms 
+
+Request: POST /api/login at Sun Apr 02 2023 14:06:47 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Request Body:
+{
+	"email": "jane@yahoo.com",
+	"password": "test"
+}
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-header__nav">
+            <ul class="main-header__item-list class="form-select" size="3" aria-label="size 3 select example">
+                <li class="main-header__item"><a class="active" href="home">home</a></li>
+                <li class="main-header__item"><a class="active" href="signup">Sign Up</a></li>
+                <li class="main-header__item"><a class="active" href="login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="form-control mx-auto" style="width: 200px;">
+        <h6>Digital Banking</h6>
+        <h6>Account: undefined Error: TypeError: BankAccount.generateAuthToken is not a function login un-successfully</h6>
+    </div>
+    <
+Response: 401 168.838 ms 
+
+Request: GET /api/home at Sun Apr 02 2023 14:31:45 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-header__nav">
+            <ul class="main-header__item-list class="form-select" size="3" aria-label="size 3 select example">
+                <li class="main-header__item"><a class="active" href="home">home</a></li>
+                <li class="main-header__item"><a class="active" href="signup">Sign Up</a></li>
+                <li class="main-header__item"><a class="active" href="login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="form-control mx-auto" style="width: 200px;">
+        <h6>Digital Banking</h6>
+        <h6>welcome to my first Middleware REST APT</h6>
+    </div>
+    </main>
+    </body>
+
+    </html>
+Response: 304 12.051 ms 
+
+Request: GET /api/signup at Sun Apr 02 2023 14:31:47 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign-Up</title>
+    <!-- <link rel="stylesheet" href="/css/site.css" try to create your own CSS> -->
+</head>
+
+<body>
+
+    <main> 
+        <form class="product-form" action="/api/signup" method="POST">
+            <div class="form-control mx auto" style="width: 200px;">
+                <label for="name">Account Name</label>
+                <input type="text" name="accountName" id="accountName">
+                <br></br>
+                <label for="name">Account Number</label>
+                <input type="text" name="accountNumber" id="accountNumber">
+                <br></br>
+                <label for="name">Account Holder</label>
+                <input type="text" name="accountHolder" id="accountHolder">
+                <br></br>
+                <label for="email">Email</label
+Response: 200 3.442 ms 
+
+Request: GET /api/home at Sun Apr 02 2023 14:34:23 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-header__nav">
+            <ul class="main-header__item-list class="form-select" size="3" aria-label="size 3 select example">
+                <li class="main-header__item"><a class="active" href="home">home</a></li>
+                <li class="main-header__item"><a class="active" href="signup">Sign Up</a></li>
+                <li class="main-header__item"><a class="active" href="login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="form-control mx-auto" style="width: 200px;">
+        <h6>Digital Banking</h6>
+        <h6>welcome to my first Middleware REST APT</h6>
+    </div>
+    </main>
+    </body>
+
+    </html>
+Response: 304 16.716 ms 
+
+Request: GET /api/signup at Sun Apr 02 2023 14:34:25 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign-Up</title>
+    <!-- <link rel="stylesheet" href="/css/site.css" try to create your own CSS> -->
+</head>
+
+<body>
+
+    <main> 
+        <form class="product-form" action="/api/signup" method="POST">
+            <div class="form-control mx auto" style="width: 200px;">
+                <label for="name">Account Name</label>
+                <input type="text" name="accountName" id="accountName">
+                <br></br>
+                <label for="name">Account Number</label>
+                <input type="text" name="accountNumber" id="accountNumber">
+                <br></br>
+                <label for="name">Account Holder</label>
+                <input type="text" name="accountHolder" id="accountHolder">
+                <br></br>
+                <label for="email">Email</label
+Response: 304 2.905 ms 
+
+Request: GET /api/home at Sun Apr 02 2023 14:35:06 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-header__nav">
+            <ul class="main-header__item-list class="form-select" size="3" aria-label="size 3 select example">
+                <li class="main-header__item"><a class="active" href="home">home</a></li>
+                <li class="main-header__item"><a class="active" href="signup">Sign Up</a></li>
+                <li class="main-header__item"><a class="active" href="login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="form-control mx-auto" style="width: 200px;">
+        <h6>Digital Banking</h6>
+        <h6>welcome to my first Middleware REST APT</h6>
+    </div>
+    </main>
+    </body>
+
+    </html>
+Response: 304 10.602 ms 
+
+Request: GET /api/signup at Sun Apr 02 2023 14:35:08 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign-Up</title>
+    <!-- <link rel="stylesheet" href="/css/site.css" try to create your own CSS> -->
+</head>
+
+<body>
+
+    <main> 
+        <form class="product-form" action="/api/signup" method="POST">
+            <div class="form-control mx auto" style="width: 200px;">
+                <label for="name">Account Name</label>
+                <input type="text" name="accountName" id="accountName">
+                <br></br>
+                <label for="name">Account Number</label>
+                <input type="text" name="accountNumber" id="accountNumber">
+                <br></br>
+                <label for="name">Account Holder</label>
+                <input type="text" name="accountHolder" id="accountHolder">
+                <br></br>
+                <label for="email">Email</label
+Response: 304 4.046 ms 
+
+Request: GET /api/home at Sun Apr 02 2023 14:36:59 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-header__nav">
+            <ul class="main-header__item-list class="form-select" size="3" aria-label="size 3 select example">
+                <li class="main-header__item"><a class="active" href="home">home</a></li>
+                <li class="main-header__item"><a class="active" href="signup">Sign Up</a></li>
+                <li class="main-header__item"><a class="active" href="login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="form-control mx-auto" style="width: 200px;">
+        <h6>Digital Banking</h6>
+        <h6>welcome to my first Middleware REST APT</h6>
+    </div>
+    </main>
+    </body>
+
+    </html>
+Response: 304 12.615 ms 
+
+Request: GET /api/signup at Sun Apr 02 2023 14:37:00 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign-Up</title>
+    <!-- <link rel="stylesheet" href="/css/site.css" try to create your own CSS> -->
+</head>
+
+<body>
+
+    <main> 
+        <form class="product-form" action="/api/signup" method="POST">
+            <div class="form-control mx auto" style="width: 200px;">
+                <label for="name">Account Name</label>
+                <input type="text" name="accountName" id="accountName">
+                <br></br>
+                <label for="name">Account Number</label>
+                <input type="text" name="accountNumber" id="accountNumber">
+                <br></br>
+                <label for="name">Account Holder</label>
+                <input type="text" name="accountHolder" id="accountHolder">
+                <br></br>
+                <label for="email">Email</label
+Response: 304 3.557 ms 
+
+Request: POST /api/signup at Sun Apr 02 2023 14:37:15 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Request Body:
+{
+	"accountName": "PNC Checking",
+	"accountNumber": "20001",
+	"accountHolder": "Karina O",
+	"email": "kortiz@gmail.com",
+	"password": "test",
+	"confirmPassword": "test"
+}
+Response Body:
+{
+	"accountName": "PNC Checking",
+	"accountNumber": "20001",
+	"accountHolder": "Karina O",
+	"email": "kortiz@gmail.com",
+	"_id": "6429f58b8fe42d3e2af1578b",
+	"date": "2023-04-02T21:37:15.280Z",
+	"__v": 0
+}
+Response: 200 112.482 ms 
+
+Request: GET /api/login at Sun Apr 02 2023 14:37:34 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Account Login</title>
+</head>
+
+<body>
+    <main>
+        <form class="form-control" action="/api/login" method="POST">
+            <div class="form-control mx-auto" style="width: 200px;">
+                <label for="email"> Email: </label>
+                <input type="text" name="email" id="email" required placeholder="email">
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" required placeholder="password">
+            </div>
+
+            <button class="btn" type="submit">Login</button>
+        </form>
+    </main>
+</body>
+</html>
+Response: 304 2.320 ms 
+
+Request: GET /api/home at Sun Apr 02 2023 15:51:28 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-header__nav">
+            <ul class="main-header__item-list class="form-select" size="3" aria-label="size 3 select example">
+                <li class="main-header__item"><a class="active" href="home">home</a></li>
+                <li class="main-header__item"><a class="active" href="signup">Sign Up</a></li>
+                <li class="main-header__item"><a class="active" href="login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="form-control mx-auto" style="width: 200px;">
+        <h6>Digital Banking</h6>
+        <h6>welcome to my first Middleware REST APT</h6>
+    </div>
+    </main>
+    </body>
+
+    </html>
+Response: 304 12.911 ms 
+
+Request: GET /api/signup at Sun Apr 02 2023 15:51:30 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign-Up</title>
+    <!-- <link rel="stylesheet" href="/css/site.css" try to create your own CSS> -->
+</head>
+
+<body>
+
+    <main> 
+        <form class="product-form" action="/api/signup" method="POST">
+            <div class="form-control mx auto" style="width: 200px;">
+                <label for="name">Account Name</label>
+                <input type="text" name="accountName" id="accountName">
+                <br></br>
+                <label for="name">Account Number</label>
+                <input type="text" name="accountNumber" id="accountNumber">
+                <br></br>
+                <label for="name">Account Holder</label>
+                <input type="text" name="accountHolder" id="accountHolder">
+                <br></br>
+                <label for="email">Email</label
+Response: 200 2.840 ms 
+
+Request: GET /api/signup at Sun Apr 02 2023 15:51:45 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign-Up</title>
+    <!-- <link rel="stylesheet" href="/css/site.css" try to create your own CSS> -->
+</head>
+
+<body>
+
+    <main> 
+        <form class="product-form" action="/api/signup" method="POST">
+            <div class="form-control mx auto" style="width: 200px;">
+                <label for="name">Account Name</label>
+                <input type="text" name="accountName" id="accountName">
+                <br></br>
+                <label for="name">Account Number</label>
+                <input type="text" name="accountNumber" id="accountNumber">
+                <br></br>
+                <label for="name">Account Holder</label>
+                <input type="text" name="accountHolder" id="accountHolder">
+                <br></br>
+                <label for="email">Email</label
+Response: 200 2.398 ms 
+
+Request: GET /api/home at Sun Apr 02 2023 15:54:52 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-header__nav">
+            <ul class="main-header__item-list class="form-select" size="3" aria-label="size 3 select example">
+                <li class="main-header__item"><a class="active" href="home">home</a></li>
+                <li class="main-header__item"><a class="active" href="signup">Sign Up</a></li>
+                <li class="main-header__item"><a class="active" href="login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="form-control mx-auto" style="width: 200px;">
+        <h6>Digital Banking</h6>
+        <h6>welcome to my first Middleware REST APT</h6>
+    </div>
+    </main>
+    </body>
+
+    </html>
+Response: 304 11.530 ms 
+
+Request: GET /api/signup at Sun Apr 02 2023 15:54:54 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign-Up</title>
+    <!-- <link rel="stylesheet" href="/css/site.css" try to create your own CSS> -->
+</head>
+
+<body>
+
+    <main> 
+        <form class="product-form" action="/api/signup" method="POST">
+            <div class="form-control mx auto" style="width: 200px;">
+                <label for="name">Account Name</label>
+                <input type="text" name="accountName" id="accountName">
+                <br></br>
+                <label for="name">Account Number</label>
+                <input type="text" name="accountNumber" id="accountNumber">
+                <br></br>
+                <label for="name">Account Holder</label>
+                <input type="text" name="accountHolder" id="accountHolder">
+                <br></br>
+                <label for="email">Email</label
+Response: 200 3.531 ms 
+
+Request: POST /api/signup at Sun Apr 02 2023 15:55:08 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Request Body:
+{
+	"accountName": "Desert Financial",
+	"accountNumber": "3001034",
+	"accountHolder": "Taylor",
+	"email": "taylor@aol.com",
+	"accountType": "Checking",
+	"password": "test",
+	"confirmPassword": "test"
+}
+Response Body:
+{
+	"accountName": "Desert Financial",
+	"accountNumber": "3001034",
+	"accountHolder": "Taylor",
+	"email": "taylor@aol.com",
+	"accountType": "Checking",
+	"_id": "642a07cc4fafeb49613f2589",
+	"date": "2023-04-02T22:55:08.089Z",
+	"__v": 0
+}
+Response: 200 121.660 ms 
+
+Request: GET /api/home at Sun Apr 02 2023 16:09:57 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-header__nav">
+            <ul class="main-header__item-list class="form-select" size="3" aria-label="size 3 select example">
+                <li class="main-header__item"><a class="active" href="home">home</a></li>
+                <li class="main-header__item"><a class="active" href="signup">Sign Up</a></li>
+                <li class="main-header__item"><a class="active" href="login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="form-control mx-auto" style="width: 200px;">
+        <h6>Digital Banking</h6>
+        <h6>welcome to my first Middleware REST APT</h6>
+    </div>
+    </main>
+    </body>
+
+    </html>
+Response: 304 11.074 ms 
+
+Request: GET /api/signup at Sun Apr 02 2023 16:10:00 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign-Up</title>
+    <!-- <link rel="stylesheet" href="/css/site.css" try to create your own CSS> -->
+</head>
+
+<body>
+
+    <main> 
+        <form class="product-form" action="/api/signup" method="POST">
+            <div class="form-control mx auto" style="width: 200px;">
+                <label for="name">Account Name</label>
+                <input type="text" name="accountName" id="accountName">
+                <br></br>
+                <label for="name">Account Number</label>
+                <input type="text" name="accountNumber" id="accountNumber">
+                <br></br>
+                <label for="name">Account Holder</label>
+                <input type="text" name="accountHolder" id="accountHolder">
+                <br></br>
+                <label for="email">Email</label
+Response: 200 3.492 ms 
+
+Request: POST /api/signup at Sun Apr 02 2023 16:10:34 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Request Body:
+{
+	"accountName": "Wells Fargo",
+	"accountNumber": "123456",
+	"accountHolder": "Lauren",
+	"email": "lmeeker2@asu.edu",
+	"accountType": "Savings",
+	"password": "IFT458",
+	"confirmPassword": "IFT458"
+}
+Response Body:
+{
+	"accountName": "Wells Fargo",
+	"accountNumber": "123456",
+	"accountHolder": "Lauren",
+	"email": "lmeeker2@asu.edu",
+	"accountType": "Savings",
+	"_id": "642a0b6a7e9b720e30ae6ee8",
+	"date": "2023-04-02T23:10:34.632Z",
+	"__v": 0
+}
+Response: 200 105.506 ms 
+
+Request: GET /api/home at Sun Apr 02 2023 16:11:05 GMT-0700, IP: ::1, User Agent: PostmanRuntime/7.31.3
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-header__nav">
+            <ul class="main-header__item-list class="form-select" size="3" aria-label="size 3 select example">
+                <li class="main-header__item"><a class="active" href="home">home</a></li>
+                <li class="main-header__item"><a class="active" href="signup">Sign Up</a></li>
+                <li class="main-header__item"><a class="active" href="login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="form-control mx-auto" style="width: 200px;">
+        <h6>Digital Banking</h6>
+        <h6>welcome to my first Middleware REST APT</h6>
+    </div>
+    </main>
+    </body>
+
+    </html>
+Response: 200 2.709 ms 
+
+Request: POST /api/home at Sun Apr 02 2023 16:11:11 GMT-0700, IP: ::1, User Agent: PostmanRuntime/7.31.3
+Response: 404 1.251 ms 
+
+Request: POST /api/login at Sun Apr 02 2023 16:11:18 GMT-0700, IP: ::1, User Agent: PostmanRuntime/7.31.3
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-header__nav">
+            <ul class="main-header__item-list class="form-select" size="3" aria-label="size 3 select example">
+                <li class="main-header__item"><a class="active" href="home">home</a></li>
+                <li class="main-header__item"><a class="active" href="signup">Sign Up</a></li>
+                <li class="main-header__item"><a class="active" href="login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="form-control mx-auto" style="width: 200px;">
+        <h6>Digital Banking</h6>
+        <h6>&lt;&lt;Error&gt;&gt; login un-successfully invalid credentials</h6>
+    </div>
+    </main>
+    </body>
+
+    </html>
+Response: 401 92.772 ms 
+
+Request: GET /api/home at Sun Apr 02 2023 16:14:10 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-header__nav">
+            <ul class="main-header__item-list class="form-select" size="3" aria-label="size 3 select example">
+                <li class="main-header__item"><a class="active" href="home">home</a></li>
+                <li class="main-header__item"><a class="active" href="signup">Sign Up</a></li>
+                <li class="main-header__item"><a class="active" href="login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="form-control mx-auto" style="width: 200px;">
+        <h6>Digital Banking</h6>
+        <h6>welcome to my first Middleware REST APT</h6>
+    </div>
+    </main>
+    </body>
+
+    </html>
+Response: 304 4.734 ms 
+
+Request: GET /api/signup at Sun Apr 02 2023 16:14:12 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign-Up</title>
+    <!-- <link rel="stylesheet" href="/css/site.css" try to create your own CSS> -->
+</head>
+
+<body>
+
+    <main> 
+        <form class="product-form" action="/api/signup" method="POST">
+            <div class="form-control mx auto" style="width: 200px;">
+                <label for="name">Account Name</label>
+                <input type="text" name="accountName" id="accountName">
+                <br></br>
+                <label for="name">Account Number</label>
+                <input type="text" name="accountNumber" id="accountNumber">
+                <br></br>
+                <label for="name">Account Holder</label>
+                <input type="text" name="accountHolder" id="accountHolder">
+                <br></br>
+                <label for="email">Email</label
+Response: 200 3.669 ms 
+
+Request: POST /api/signup at Sun Apr 02 2023 16:14:47 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Request Body:
+{
+	"accountName": "Chase Morgan",
+	"accountNumber": "987654",
+	"accountHolder": "Lauren Meeker",
+	"email": "lmeeker@gmail.com",
+	"accountType": "Checking",
+	"password": "IFT458",
+	"confirmPassword": "IFT458"
+}
+Response Body:
+{
+	"accountName": "Chase Morgan",
+	"accountNumber": "987654",
+	"accountHolder": "Lauren Meeker",
+	"email": "lmeeker@gmail.com",
+	"accountType": "Checking",
+	"_id": "642a0c677e9b720e30ae6eeb",
+	"date": "2023-04-02T23:14:47.316Z",
+	"__v": 0
+}
+Response: 200 123.695 ms 
+
+Request: GET /api/home at Sun Apr 02 2023 16:14:53 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-header__nav">
+            <ul class="main-header__item-list class="form-select" size="3" aria-label="size 3 select example">
+                <li class="main-header__item"><a class="active" href="home">home</a></li>
+                <li class="main-header__item"><a class="active" href="signup">Sign Up</a></li>
+                <li class="main-header__item"><a class="active" href="login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="form-control mx-auto" style="width: 200px;">
+        <h6>Digital Banking</h6>
+        <h6>welcome to my first Middleware REST APT</h6>
+    </div>
+    </main>
+    </body>
+
+    </html>
+Response: 304 2.245 ms 
+
+Request: GET /api/signup at Sun Apr 02 2023 16:14:55 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign-Up</title>
+    <!-- <link rel="stylesheet" href="/css/site.css" try to create your own CSS> -->
+</head>
+
+<body>
+
+    <main> 
+        <form class="product-form" action="/api/signup" method="POST">
+            <div class="form-control mx auto" style="width: 200px;">
+                <label for="name">Account Name</label>
+                <input type="text" name="accountName" id="accountName">
+                <br></br>
+                <label for="name">Account Number</label>
+                <input type="text" name="accountNumber" id="accountNumber">
+                <br></br>
+                <label for="name">Account Holder</label>
+                <input type="text" name="accountHolder" id="accountHolder">
+                <br></br>
+                <label for="email">Email</label
+Response: 200 3.599 ms 
+
+Request: GET /api/home at Sun Apr 02 2023 16:32:07 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-header__nav">
+            <ul class="main-header__item-list class="form-select" size="3" aria-label="size 3 select example">
+                <li class="main-header__item"><a class="active" href="home">home</a></li>
+                <li class="main-header__item"><a class="active" href="signup">Sign Up</a></li>
+                <li class="main-header__item"><a class="active" href="login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="form-control mx-auto" style="width: 200px;">
+        <h6>Digital Banking</h6>
+        <h6>welcome to my first Middleware REST APT</h6>
+    </div>
+    </main>
+    </body>
+
+    </html>
+Response: 304 13.572 ms 
+
+Request: GET /api/signup at Sun Apr 02 2023 16:32:09 GMT-0700, IP: ::1, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Response Body:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign-Up</title>
+    <!-- <link rel="stylesheet" href="/css/site.css" try to create your own CSS> -->
+</head>
+
+<body>
+
+    <main> 
+        <form class="product-form" action="/api/signup" method="POST">
+            <div class="form-control mx auto" style="width: 200px;">
+                <label for="name">Account Name</label>
+                <input type="text" name="accountName" id="accountName">
+                <br></br>
+                <label for="name">Account Number</label>
+                <input type="text" name="accountNumber" id="accountNumber">
+                <br></br>
+                <label for="name">Account Holder</label>
+                <input type="text" name="accountHolder" id="accountHolder">
+                <br></br>
+                <label for="email">Email</label
+Response: 304 3.792 ms 
